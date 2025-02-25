@@ -4,32 +4,31 @@
 
 Through the completion of the Computer Science program at SNHU, I have learned, not only about the craft of designing and writing software, but also about how to collaborate with other developers to gain tools and insights for my work. Over the course of earning my degree, I learned uncountable new skills such as database design and management, security analysis, 3D graphic rendering, neural network implementation, and more. Most recently, I have combined many of these skills to create several full stack projects including Web and Mobile applications.
 
-Effective teamwork is essential for success in software development and IT-related fields. Throughout my academic and professional experiences, I have collaborated with cross-functional teams using Agile methodologies, version control systems such as Git, and project management tools. I have experience participating in code reviews, engaging in constructive peer feedback, and integrating multiple components of a project to ensure cohesive functionality.
+ - Effective teamwork is essential for success in software development and IT-related fields. Throughout my academic and professional experiences, I have collaborated with cross-functional teams using Agile methodologies, version control systems such as Git, and project management tools. I have experience participating in code reviews, engaging in constructive peer feedback, and integrating multiple components of a project to ensure cohesive functionality.
 
-In the field of computer science, technical proficiency must be accompanied by strong communication skills. My ability to translate complex technical concepts into understandable language allows me to effectively interact with both technical and non-technical stakeholders. Whether through presentations, technical documentation, or reports, I ensure that key project details are conveyed clearly and concisely.
+ - In the field of computer science, technical proficiency must be accompanied by strong communication skills. My ability to translate complex technical concepts into understandable language allows me to effectively interact with both technical and non-technical stakeholders. Whether through presentations, technical documentation, or reports, I ensure that key project details are conveyed clearly and concisely.
 
-I have experience gathering and analyzing user requirements, which has taught me how to align software solutions with business needs. Additionally, I have worked on projects where I needed to document software development lifecycles, API usage, and data structures, ensuring that all relevant parties—including developers, clients, and end-users—can access and comprehend critical project information.
+ - I have experience gathering and analyzing user requirements, which has taught me how to align software solutions with business needs. Additionally, I have worked on projects where I needed to document software development lifecycles, API usage, and data structures, ensuring that all relevant parties—including developers, clients, and end-users—can access and comprehend critical project information.
 
-A strong foundation in data structures and algorithms is vital for writing efficient, scalable software. My coursework and hands-on projects have provided me with deep experience in designing and implementing efficient algorithms for sorting, searching, and optimizing computational tasks. I have applied my knowledge of trees, graphs, hash tables, and dynamic programming to solve complex problems effectively.
+ - A strong foundation in data structures and algorithms is vital for writing efficient, scalable software. My coursework and hands-on projects have provided me with deep experience in designing and implementing efficient algorithms for sorting, searching, and optimizing computational tasks. I have applied my knowledge of trees, graphs, hash tables, and dynamic programming to solve complex problems effectively.
 
-My proficiency in software engineering principles extends to designing and implementing robust, scalable applications. I have developed full-stack applications using programming languages such as Java, JavaScript, and C++. I am well-versed in software development methodologies, including Agile and DevOps, and have experience with frameworks like React and Spring Boot.
+ - My proficiency in software engineering principles extends to designing and implementing robust, scalable applications. I have developed full-stack applications using programming languages such as Java, JavaScript, and C++. I am well-versed in software development methodologies, including Agile and DevOps, and have experience with frameworks like React and Spring Boot.
 
-Database management is another area of expertise where I have demonstrated my ability to design, normalize, and optimize relational and NoSQL databases. I have worked extensively with SQL and NoSQL databases including MongoDB, Realm, MySQL, and SQLite, ensuring efficient data retrieval and storage. Understanding how to implement database indexing, query optimization, and stored procedures has helped me develop scalable back-end solutions.
+ - Database management is another area of expertise where I have demonstrated my ability to design, normalize, and optimize relational and NoSQL databases. I have worked extensively with SQL and NoSQL databases including MongoDB, Realm, MySQL, and SQLite, ensuring efficient data retrieval and storage. Understanding how to implement database indexing, query optimization, and stored procedures has helped me develop scalable back-end solutions.
 
-Security is a fundamental aspect of modern computing, and I am well-versed in secure coding practices, cryptography, authentication protocols, and risk assessment. I have implemented security measures such as encryption, secure authentication methods (OAuth, JWT), and network security protocols to protect applications from vulnerabilities.
+ - Security is a fundamental aspect of modern computing, and I am well-versed in secure coding practices, cryptography, authentication protocols, and risk assessment. I have implemented security measures such as encryption, secure authentication methods (OAuth, JWT), and network security protocols to protect applications from vulnerabilities.
 
-Additionally, my coursework in cybersecurity has equipped me with the knowledge to perform security audits, penetration testing, and vulnerability assessments. I understand the importance of writing secure software and following industry best practices to mitigate threats such as SQL injection, cross-site scripting, and buffer overflows.
+ - Additionally, my coursework in cybersecurity has equipped me with the knowledge to perform security audits, penetration testing, and vulnerability assessments. I understand the importance of writing secure software and following industry best practices to mitigate threats such as SQL injection, cross-site scripting, and buffer overflows.
 
 ### Artifacts
-To demonstrate my abilies in the areas of software design and engineering, algorithms and data structures, and databases I enhanced two artifacts from previous coursework. The first of these is an android app developed using Java SDK in Android studio. To enhance this artifact, I added several functional features to help user navigation, security, and increase efficiency. This work was completed hand in hand with my database enhancement whch also utilizes the mobile app. I migrated the previously SQLite data layer over to the open-source database project [Realm](https://github.com/realm) by mongoDB. The realm database schema is object oriented rather then relational so the shift included creating new CRUD modules, but the database's inherently smooth implementation helped significantly.
+To demonstrate my abilies in the areas of software design and engineering, algorithms and data structures, and databases, I have enhanced two artifacts from previous coursework. The first of these is an android app developed using Java SDK in Android studio. To enhance this artifact, I added several functional features to improve user navigation, security, and efficiency. This work was completed hand in hand with my database enhancement whch also utilizes the mobile app. I migrated the previous SQLite data layer over to the open-source database project [Realm](https://github.com/realm) by mongoDB. The realm database schema is object oriented rather then relational so the shift included creating new CRUD modules, but the database's inherently smooth implementation helped significantly.
 
-The artifact which showcases my skills in the area of algorithmns and data structures is a binary search tree model which takes a CSV file and offers functionality to insert, sort, and search through data. For my enhancement, I ported the original model to Java so that I could utilize the module with other java projects easily. I also designed and implemented a new red and black tree which is another model which is self-balancing and has a slightly better time complexity with high input than the original tree. 
-
+The artifact which showcases my skills in the area of algorithmns and data structures is a binary search tree model which takes a CSV file and offers functionality to insert, sort, and search through data. For my enhancement, I ported the original model to Java so that I could easily utilize the module with other java projects. I also designed and implemented a new red and black tree which is self-balancing model and has a slightly better time complexity with high input than the original tree. 
 
 ## Code Review
 The initial code review for this project can be found [here](https://youtube.com/playlist?list=PLR8ofoWi60ZuU3sn5STf4Om_Txww9rYqG&si=JUI9ZJTV0dNwNS6T).
 
-## Artifacts Narratives
+## Artifact Narratives
 
 ### Warehouse Manager App  
 
@@ -43,13 +42,9 @@ The database used in the original is embedded SQLite. I created the original dat
 
 Creating the new warehouse management system was certainly the most difficult aspect of the enhancement because it involved creating a new activity, designing a new database schema, and implementing new user interfaces. This process was made more laborious by some nuances of the Realm database which I was learning as I went. Much of the troubleshooting was centered on fixing interactions between the database objects and the app logic. Despite this, I was able to fully implement the Realm object-oriented schema and use it to create more efficient data insertion and retrieval throughout the app, and I feel that all course outcomes were met.
 
-
  Main Page  | Warehouse Management 
  ------------- | ------------- 
  ![Screenshot 2025-02-24 183130](https://github.com/user-attachments/assets/e86adb23-7aaf-4f0c-8763-cebb1777bdf3) | ![Screenshot 2025-02-24 183538](https://github.com/user-attachments/assets/e01287d9-5029-478b-8d57-a131406484aa) |
-
-
-
 
 ### Binary Search Tree  
 
@@ -62,9 +57,7 @@ Porting the original tree helped me write the code for the red and black tree be
 ![Binary Search Tree Flow Chart (2)](https://github.com/user-attachments/assets/d563ddf1-288d-4c86-9ac2-337f7a31e8e4)
 
 
-#### Narrative 
-
-### Skills Demonstrated to meet Course Outcomes
+## Skills Demonstrated to meet Course Outcomes
 
 ⭐**Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science**
   - Created code review video which evaluates the source code for each enhancement. The review appraised the code structure, documentation, variables, arithmetic operations, loops/branches, and security.
