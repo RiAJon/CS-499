@@ -18,7 +18,13 @@ Database management is another area of expertise where I have demonstrated my ab
 
 Security is a fundamental aspect of modern computing, and I am well-versed in secure coding practices, cryptography, authentication protocols, and risk assessment. I have implemented security measures such as encryption, secure authentication methods (OAuth, JWT), and network security protocols to protect applications from vulnerabilities.
 
-Additionally, my coursework in cybersecurity has equipped me with the knowledge to perform security audits, penetration testing, and vulnerability assessments. I understand the importance of writing secure software and following industry best practices to mitigate threats such as SQL injection, cross-site scripting (XSS), and buffer overflows.
+Additionally, my coursework in cybersecurity has equipped me with the knowledge to perform security audits, penetration testing, and vulnerability assessments. I understand the importance of writing secure software and following industry best practices to mitigate threats such as SQL injection, cross-site scripting, and buffer overflows.
+
+### Artifacts
+To demonstrate my abilies in the areas of software design and engineering, algorithms and data structures, and databases I enhanced two artifacts from previous coursework. The first of these is an android app developed using Java SDK in Android studio. To enhance this artifact, I added several functional features to help user navigation, security, and increase efficiency. This work was completed hand in hand with my database enhancement whch also utilizes the mobile app. I migrated the previously SQLite data layer over to the open-source database project [Realm](https://github.com/realm) by mongoDB. The realm database schema is object oriented rather then relational so the shift included creating new CRUD modules, but the database's inherently smooth implementation helped significantly.
+
+The artifact which showcases my skills in the area of algorithmns and data structures is a binary search tree model which takes a CSV file and offers functionality to insert, sort, and search through data. For my enhancement, I ported the original model to Java so that I could utilize the module with other java projects easily. I also designed and implemented a new red and black tree which is another model which is self-balancing and has a slightly better time complexity with high input than the original tree. 
+
 
 ## Code Review
 The initial code review for this project can be found [here](https://youtube.com/playlist?list=PLR8ofoWi60ZuU3sn5STf4Om_Txww9rYqG&si=JUI9ZJTV0dNwNS6T).
