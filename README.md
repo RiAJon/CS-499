@@ -33,9 +33,31 @@ The initial code review for this project can be found [here](https://youtube.com
 
 ### Warehouse Manager App  
 
-#### Narrative 
+The artifact being enhanced is a mobile application developed for android using Android Studio and SQLite. The app was designed to be a warehouse manager for inventory managers, small business owners, and anyone else who would benefit from automating their inventory tracking. I initially worked on the app during my seventh term at SNHU for CS-360 in 2024.
+
+I decided to include this artifact in my portfolio because I did a lot of learning during the initial development of the app, and I had already thought of several areas for improvement by the time I turned in the original project. When the opportunity arose to enhance a project, I knew this app would be a good one to work on. I honed many skills while developing and enhancing the app. These include front end development, modular design, database architecture, and more.
+
+To improve the artifact, I have completed several enhancements. These include a new warehouse management system, new search capabilities, photo capabilities, fixes to the notification system, increased user accessibility, and increased security in the form of input validation and user authentication. During the process of enhancing the artifact I learned much. One of the biggest challenges I faced happened to also be the area where I learned the most. I designed another aspect of the app with a recycler view which was difficult because there are many facets, and I had not truly understood the process the first time around. However, after much trial and error, I learned to implement the view in a way that will be simple to replicate in the future. 
+
+The database used in the original is embedded SQLite. I created the original database and implemented it in my application using custom CRUD operations. I had enjoyed the process of building the data layer in my app, but I felt that the interactions between the database and application could be better. To enhance the artifact, I decided to upgrade to an external object database with simpler implementation and broader data storage capability. Through the new database implementation, the artifact has been improved in areas like modularity, readability, storage capabilities, and more.
+
+Creating the new warehouse management system was certainly the most difficult aspect of the enhancement because it involved creating a new activity, designing a new database schema, and implementing new user interfaces. This process was made more laborious by some nuances of the Realm database which I was learning as I went. Much of the troubleshooting was centered on fixing interactions between the database objects and the app logic. Despite this, I was able to fully implement the Realm object-oriented schema and use it to create more efficient data insertion and retrieval throughout the app, and I feel that all course outcomes were met.
+
+
+ Main Page  | Warehouse Management 
+ ------------- | ------------- 
+ ![Screenshot 2025-02-24 183130](https://github.com/user-attachments/assets/e86adb23-7aaf-4f0c-8763-cebb1777bdf3) | ![Screenshot 2025-02-24 183538](https://github.com/user-attachments/assets/e01287d9-5029-478b-8d57-a131406484aa) |
+
+
+
 
 ### Binary Search Tree  
+
+This artifact is a binary search tree structure which implements insertion, deletion, search, and sort algorithms. It was created in my fifth term at SNHU for CS260: Data Structures and Algorithms. I selected this item because I was very interested in the process of creating different data storage structures and evaluating their efficiency in areas like searching and sorting. My professor in that class mentioned more complicated self-balancing trees but said that they were outside the scope of the class. 
+
+When the opportunity arose to revisit the data structure, I decided I wanted to expand my understanding of data structures and create a red and black tree. I wanted to be able to use the structure in some of my java projects, so I decided to complete the enhancement in java. I also decided to port the original binary search tree from C++ to java so that I could compare the efficiency of the structures with big O notation. This enhancement displays skills including the ability to port projects between OOP languages, algorithm design, efficiency analysis, and unit testing. 
+
+Porting the original tree helped me write the code for the red and black tree because the logic follows the same lines with an extra element in each storage node. The biggest challenge in the new implementation was learning how to create the self-balancing effect in the structure through rotation. Luckily, having just worked on the first tree, I had some fresh ideas about how to make the code clearer and reusable in the new tree. This included aspects like variable names, class data fields, function modules, and more. 
 
 ![Binary Search Tree Flow Chart (2)](https://github.com/user-attachments/assets/d563ddf1-288d-4c86-9ac2-337f7a31e8e4)
 
